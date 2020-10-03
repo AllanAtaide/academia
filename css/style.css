@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('/portifolio/css/navbar.css');
+:root{
+    --lightgreen:chartreuse;
+}
+
+.bg-image{
+    background:url('/portifolio/assets/background.png') top no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.bg-image-middle{
+    background-image: url('/portifolio/assets/bg-middle.png') ;
+    background-size: cover;
+    height:100vh;
+}
+.cross, .fit{
+    font-size: 1.5rem;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.subtitle{font-size: 1.5rem;}
+.cross{color: var(--lightgreen);}
+.fit{color: white;}
+.title{font-size: 5rem;text-transform: uppercase;}
+
+#menu-toggle:checked + #menu{
+    display: block;
+}
+
+.slick-dots li.slick-active button:before{
+    color:white !important;
+}
+
+@media screen and (max-width: 1024px){
+    .bg-image{
+    background:url('/portifolio/assets/background-640x-360.png') top no-repeat;
+    background-size: cover;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .bg-image-middle{
+        background-image: url('/portifolio/assets/bg-middle.png') ;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 697px){
+    .bg-image{
+    background:url('/portifolio/assets/background-small.png') top no-repeat;
+    background-size: cover;
+    }
+
+}
+@media screen and (max-width: 280px){
+    .bg-image-middle{
+        background-image: url('/portifolio/assets/bg-middle.png') ;
+        height: 50vh;
+    }
+
+}
+
