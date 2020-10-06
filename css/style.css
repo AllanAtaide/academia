@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
-@import url('/portifolio/css/navbar.css');
+@import url('navbar.css');
 :root{
     --lightgreen:chartreuse;
 }
 
 .bg-image{
-    background:url('/portifolio/assets/background.png') top no-repeat;
+    background:url('../assets/background.png') top no-repeat;
     background-size: cover;
     height: 90vh;
 }
 .bg-image-middle{
-    background-image: url('/portifolio/assets/bg-middle.png') ;
+    background-image: url('../assets/bg-middle.png') ;
     background-size: cover;
     height:100vh;
 }
@@ -35,28 +35,28 @@
 
 @media screen and (max-width: 1024px){
     .bg-image{
-    background:url('/portifolio/assets/background-640x-360.png') top no-repeat;
+    background:url('../assets/background-640x-360.png') top no-repeat;
     background-size: cover;
     }
     .title{
         font-size: 3rem;
     }
     .bg-image-middle{
-        background-image: url('/portifolio/assets/bg-middle.png') ;
+        background-image: url('../assets/bg-middle.png') ;
         height: 100%;
     }
 }
 
 @media screen and (max-width: 697px){
     .bg-image{
-    background:url('/portifolio/assets/background-small.png') top no-repeat;
+    background:url('../assets/background-small.png') top no-repeat;
     background-size: cover;
     }
 
 }
 @media screen and (max-width: 280px){
     .bg-image-middle{
-        background-image: url('/portifolio/assets/bg-middle.png') ;
+        background-image: url('../assets/bg-middle.png') ;
         height: 50vh;
     }
 
